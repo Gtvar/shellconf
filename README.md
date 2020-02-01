@@ -8,6 +8,7 @@
 - https://github.com/romkatv/powerlevel10k/blob/master/README.md#fonts
 - https://github.com/Powerlevel9k/powerlevel9k/wiki/Show-Off-Your-Config
 - https://github.com/gpakosz/.tmux
+- https://github.com/VundleVim/Vundle.vim
 
 
 etc.

@@ -33,10 +33,10 @@ setopt MAGIC_EQUAL_SUBST
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-#export PATH=$PATH:~/Applications:/Applications
+#export PATH=$PATH:/Applications
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/PASTE_USER/.oh-my-zsh"
+export ZSH="/Users/$USER/.oh-my-zsh"
 #export TERM="xterm-256color"
 
 # Set name of the theme to load --- if set to "random", it will
@@ -184,6 +184,9 @@ source $ZSH/oh-my-zsh.sh
 #   export EDITOR='mvim'
 # fi
 
+export EDITOR='vim'
+export LC_ALL=en_US.UTF-8
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
@@ -198,3 +201,9 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+export PATH="/usr/local/opt/sqlite/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/sqlite/lib"
+export CPPFLAGS="-I/usr/local/opt/sqlite/include"
+export LDFLAGS="-L/usr/local/opt/ruby/lib"
+export CPPFLAGS="-I/usr/local/opt/ruby/include"
