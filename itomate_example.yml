@@ -1,0 +1,17 @@
+version: "1.0"
+tabs:
+  crm:
+    title: "WWW"
+    panes:
+      - title: "Project"
+        position: "1/1"
+        commands:
+         - "cd ~/www/"
+         - "./docker/scripts/docker-start"
+  crm_logs:
+    title: "Project logs"
+    panes:
+      - title:
+        commands:
+          - "cd ~/www/"
+          - "cd var/logs"
