@@ -7,8 +7,13 @@
 - https://www.freecodecamp.org/news/jazz-up-your-zsh-terminal-in-seven-steps-a-visual-guide-e81a8fd59a38/
 - https://github.com/romkatv/powerlevel10k/blob/master/README.md#fonts
 - https://github.com/Powerlevel9k/powerlevel9k/wiki/Show-Off-Your-Config
-- https://github.com/gpakosz/.tmux
 - https://www.linode.com/docs/tools-reference/tools/introduction-to-vim-customization/
+
+tmux
+- https://github.com/gpakosz/.tmux
+- Change keyboard Caps lock to Ctrl
+- default command Ctrl+A
+
 
 brew install vim
 - https://github.com/VundleVim/Vundle.vim
